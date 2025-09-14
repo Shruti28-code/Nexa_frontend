@@ -56,7 +56,7 @@ const Chat = () => {
         setIsLoading(true);
 
         try {
-            const response = await fetch('https://nexa-tak6.onrender.com', {
+            const response = await fetch('https://nexa-tak6.onrender.com/api/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
